@@ -1,0 +1,86 @@
+body {
+  background-color: #f0f0f0;
+  text-align: justify;
+}
+
+.Daivat {
+  display: block;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: "Prata";
+  color: #000000;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #f97d2a ;
+  }
+
+h1:hover {
+  color: #f97d2a;
+  text-decoration-color: black;
+}
+
+.navbar {
+  margin-top: 45px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #f97d2a;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #000000;
+}
+
+.Introduction a {
+  color: #f97d2a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Introduction a:hover {
+  color: #000000;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.Introduction p {
+  text-align: left;
+  margin: 2.5% 25%;
+}
+
+.django {
+  font-family: DTL-Prokyon;
+  color: rgb(0, 133, 82)
+}
+
+.reactjs {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4ec7e8;
+}
+
+@font-face {
+  font-family: DTL-Prokyon;
+  src: url("fonts/DTL-Prokyon.otf") format("opentype");
+}
+
+.disclaimer {
+  background-color: #f97d2a;
+  font-weight: bolder;
+  color: #f0f0f0;
+  text-align: center;
+}
